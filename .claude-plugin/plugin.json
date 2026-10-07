@@ -1,0 +1,13 @@
+{
+  "name": "clawd-skins",
+  "displayName": "Clawd Skins",
+  "version": "1.0.0",
+  "description": "Restyle Clawd the mascot: switchable skins (including the winter snowflake skin) for the status bar, a session greeting, and on-demand banner commands.",
+  "author": {
+    "name": "GavinGuy"
+  },
+  "license": "MIT",
+  "keywords": ["clawd", "mascot", "statusline", "theme", "cosmetic", "fun"],
+  "commands": "./commands/",
+  "hooks": "./hooks/hooks.json"
+}

@@ -1,0 +1,89 @@
+{
+  "classic": {
+    "label": "Classic Orange",
+    "body": [215, 119, 87],
+    "faceBg": [0, 0, 0],
+    "snow": false
+  },
+  "snowflake": {
+    "label": "Winter Snowflake",
+    "body": [173, 216, 230],
+    "faceBg": [0, 0, 0],
+    "snow": true,
+    "snowColor": [255, 255, 255]
+  },
+  "ice": {
+    "label": "Ice Crystal",
+    "body": [139, 233, 253],
+    "faceBg": [0, 0, 0],
+    "snow": true,
+    "snowColor": [200, 240, 255]
+  },
+  "matrix": {
+    "label": "Matrix Green",
+    "body": [80, 250, 123],
+    "faceBg": [0, 0, 0],
+    "snow": false
+  },
+  "magenta": {
+    "label": "Neon Magenta",
+    "body": [255, 121, 198],
+    "faceBg": [0, 0, 0],
+    "snow": false
+  },
+  "gold": {
+    "label": "Royal Gold",
+    "body": [241, 196, 83],
+    "faceBg": [0, 0, 0],
+    "snow": false
+  },
+  "mono": {
+    "label": "Monochrome",
+    "body": [220, 220, 220],
+    "faceBg": [0, 0, 0],
+    "snow": false
+  },
+  "sunset": {
+    "label": "Sunset",
+    "body": [255, 138, 101],
+    "faceBg": [40, 16, 28],
+    "snow": false
+  },
+  "ocean": {
+    "label": "Ocean",
+    "body": [38, 166, 222],
+    "faceBg": [0, 0, 0],
+    "snow": false
+  },
+  "ember": {
+    "label": "Ember",
+    "body": [255, 87, 51],
+    "faceBg": [0, 0, 0],
+    "snow": false
+  },
+  "lavender": {
+    "label": "Lavender",
+    "body": [181, 156, 232],
+    "faceBg": [0, 0, 0],
+    "snow": false
+  },
+  "mint": {
+    "label": "Mint",
+    "body": [120, 224, 192],
+    "faceBg": [0, 0, 0],
+    "snow": false
+  },
+  "crimson": {
+    "label": "Crimson",
+    "body": [220, 38, 70],
+    "faceBg": [0, 0, 0],
+    "snow": false
+  },
+  "starlight": {
+    "label": "Starlight",
+    "body": [245, 230, 180],
+    "faceBg": [10, 10, 26],
+    "snow": true,
+    "snowColor": [255, 250, 230]
+  }
+}

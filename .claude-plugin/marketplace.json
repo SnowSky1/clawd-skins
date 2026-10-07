@@ -1,0 +1,16 @@
+{
+  "name": "clawd-skins",
+  "owner": {
+    "name": "GavinGuy"
+  },
+  "metadata": {
+    "description": "Skins for Clawd the mascot — switchable color themes (including the winter snowflake skin) for the Claude Code status bar, session greeting, and on-demand banner commands."
+  },
+  "plugins": [
+    {
+      "name": "clawd-skins",
+      "source": ".",
+      "description": "Restyle Clawd the mascot via switchable skins, a status-bar mini-Clawd, a session greeting, and on-demand banner commands."
+    }
+  ]
+}

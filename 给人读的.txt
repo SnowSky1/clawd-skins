@@ -1,0 +1,19 @@
+✅ C:\Users\86151\Desktop\clawd-skins 现在是纯核心插件目录,17 个文件、29 KB(去掉了重的 art 图后很小),claude plugin validate 通过。
+
+目录内容(只剩能装能跑的):
+.claude-plugin/  plugin.json + marketplace.json
+bin/clawd.mjs    渲染引擎(含 ESC 招的交错状态栏)
+commands/        8 个斜杠命令 (show/list/set/random/reset/generate/install-statusline/uninstall-statusline)
+hooks/hooks.json SessionStart 问候 banner
+skins/skins.json 14 个皮肤
+package.json + package-lock.json   仅 generate 用的 SDK 依赖
+README.md        精简版(只讲插件,无失效链接)
+LICENSE
+
+去掉了:art/、tools/(启动横幅脚本)、INVESTIGATION.md、snowflake-clawd-source.js、show-clawd.ps1、.gitignore——这些是项目附属/研究内容,不影响插件安装运行。完整版仍在 Desktop\CLAWD 原仓库里。
+
+装它:
+cd C:\Users\86151\Desktop\clawd-skins
+npm install                      # 仅 AI 生成器需要
+claude --plugin-dir "C:\Users\86151\Desktop\clawd-skins"
+进去后 /clawd-skins: 就能看到全部命令,/clawd-skins:install-statusline 把交错雪花 Clawd 装进状态栏。
